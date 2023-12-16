@@ -1,34 +1,17 @@
-//  COMP 3612 - ASG 3 - node.js
-//  Name:   Ethan Ai
-//  Prof:   Randy Connolly
-//  Date:   12/11/23
-// 
-//  File:   This file defines an Express.js server that serves as the backend for an art database API. 
-//  API Endpoints:
-//       - /api/paintings
-//       - /api/galleries
-//       - /api/artists
-//       - /api/painting/:id
-//       - /api/painting/gallery/:id
-//       - /api/painting/artist/:id
-//       - /api/painting/year/:min/:max
-//       - /api/painting/title/:text
-//       - /api/painting/color/:name
-//       - /api/artists/:country
-//       - /api/galleries/:country
-//
-//  Dependencies:  
-//       - Express.js
-//       - fs module
-//       - path module
-//  	
-//  Version:
-//	 node.js v12.16.3
+// COMP 3612 - ASG 3 - node.js // Name: Ethan Ai // Prof: Randy Connolly
+// Date: 12/11/23 // // File: This file defines an Express.js server
+that serves as the backend for an art database API. // API Endpoints:
+// - /api/paintings // - /api/galleries // - /api/artists // -
+/api/painting/:id // - /api/painting/gallery/:id // -
+/api/painting/artist/:id // - /api/painting/year/:min/:max // -
+/api/painting/title/:text // - /api/painting/color/:name // -
+/api/artists/:country // - /api/galleries/:country // // Dependencies:
+// - Express.js // - fs module // - path module // // Version: //
+node.js v12.16.3
 
-
-***************************************
-	  GLITCH.COM LINKS
-***************************************
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+GLITCH.COM LINKS
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 https://spectacled-paper-asphalt.glitch.me/api/paintings
 
